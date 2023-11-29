@@ -1,0 +1,465 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <!--=============== FONTAWESOME ===============-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <title>GlobalSourci</title>
+  </head>
+
+  <body>
+    <!--=============== HEADER ===============-->
+    <header>
+      <div class="container">
+        <a href="index.php"
+          ><div class="logo"><img src="images/logo.jpg" alt="" /></div
+        ></a>
+        <div class="links">
+          <a href="about.html" onclick="tab()">AboutUs </a>
+          <a href="categories.html" onclick="tab()">Categories </a>
+          <a href="Services.html" onclick="tab()">Services </a>
+          <a href="process.html" onclick="tab()">Process </a>
+          <a href="getstart.html" onclick="tab()"> Get Started </a>
+          <a href="FAQs.html" onclick="tab()">FAQs </a>
+          <a href="contact.php" onclick="tab()">
+            <button class="empty">Contact Us</button>
+          </a>
+        </div>
+        <i class="fal fa-bars" id="menu" onclick="tab()"></i>
+      </div>
+    </header>
+    <!--=============== MAIN ===============-->
+    <main>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img src="images/ImageSlide.01.jpeg" alt="" />
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
+      </div>
+    </main>
+
+    <!--=============== Item5 ===============-->
+
+    <section>
+      <div class="container">
+        <div class="container_2">
+          <h1>What we <span>do</span></h1>
+        </div>
+
+        <div class="item_5">
+          <div class="do__1">
+            <h1>Product Sourcing</h1>
+            <p>
+              Let's find the products with a much better price and stable
+              source. Whether you need more consistency, realiability, price or
+              category expertise we have you covered.
+            </p>
+          </div>
+          <div class="do__2">
+            <h1 style="color: #000">Inspections and Audits</h1>
+            <p>
+              Quality assurance inspections and third party audits to verify
+              your quality standards across your supply chain anywhere, anytime
+            </p>
+          </div>
+          <div class="do__3">
+            <h1 style="color: #ff6cbf">Sampling</h1>
+            <p>
+              You receive samples of your products before approving your order.
+              Get samples for approval before production even starts. Our Team
+              manages process-driven sampling from start to finish.
+            </p>
+          </div>
+          <div class="do__4">
+            <h1 style="color: #ff692c">Negotiations</h1>
+            <p>
+              We will negotiate the Final Price once you are completely
+              satisfied with the samples you were supplied. Your Final Price
+              mainly based on Quality.
+            </p>
+          </div>
+          <div class="do__5">
+            <h1 style="color: #ff692c">Manufacturing</h1>
+            <p>
+              Upon Approval, we will submit your order to manufacture your
+              products. Full transparency in manufacturing, and understanding
+              the production process gives you peace of mind with high quality
+              standards. With teams on the ground, we keep it real with
+              manufacturers, so you're getting exactly what you specified.
+            </p>
+          </div>
+          <div class="do__6">
+            <h1 style="color: #ff6cbf">Testing and Certfication</h1>
+            <p>
+              Our Partnered Team over 25 Years Experience Accredited Against all
+              major international regulatory standards for the importation of
+              consumer and Industrial products worldwide. Quality Control is
+              key. We ensure that your products meet the quality requirements
+              and the standards set.
+            </p>
+          </div>
+          <div class="do__7">
+            <h1 style="color: #000">Client Approval</h1>
+            <p>
+              We will send you video footage and snapshots of your ordered
+              products once our team inspects your products, ensuring complete
+              quality standards. Products match the samples you were supplied
+              with high-quality standards.
+            </p>
+          </div>
+          <div class="do__8">
+            <h1>Logistics</h1>
+            <p>
+              Packaging and shipping
+              <br /><br />
+              We support customised Packaging. Your products will be ready to
+              sell after labelling, barcoding & etc. Our shipping ranges from
+              Air or Sea can be by express with the option to manage all
+              freight, clearance, importing and delivery after your products are
+              manufactured & quality checked.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Item8 ===============-->
+
+    <section class="item__08">
+      <div class="container">
+        <div class="youthful">
+          <h1>What we source?</h1>
+          <p>
+            We source and ship manufactured goods over a wide cross-section of
+            industries and products, including consumer electronics, apparel
+            shoes & clothing, furniture & décor, outdoor & garden, home &
+            kitchen, construction, industrial, office supplies, Automative,
+            personal care, make-to-order engineered components, building and
+            packaging products and so much more. Depending entirely on your
+            requirements, the business model we deploy for each of our customer
+            relationships is unique and second to none.
+          </p>
+        </div>
+        <div class="categories">Our Product <span>Categories</span></div>
+        <div class="item_8">
+          <div class="item_8_card_1" style="background-color: #440469">
+            <h1>Consumer Electronics</h1>
+            <p>
+              Consumer Electronics Category we work with verified manufacturers
+              with Good Track record in manufacturing quality consumer
+              electronics.    TQA or CSR Audits and Testing & Certification. We
+              also work with distributors for big brand electronics. 
+            </p>
+          </div>
+          <div class="item_8_card_2" style="background-color: #00c9c9">
+            <h1>Furniture</h1>
+            <p>
+              The Furniture Category sourcing Furniture and Décor from Europe,
+              America and Australasia. Inlcuding Importing cost effective,
+              quality furniture from our predominantly Asian, European and North
+              America supplier base into these fast paced and highly competitive
+              markets.
+            </p>
+          </div>
+          <div class="item_8_card_3" style="background-color: #ff692c">
+            <h1>Interior design                </h1>
+            <p>
+              Access world’s supply in interior design with high
+              quality-standards from specifications and quality inspections
+              where nothing is left to chance. Every furniture finishes, every
+              fabric details or colour specification is quality checked
+              delivering the highest level of quality in the most reasonable
+              amount of time without the stress and time waste.
+            </p>
+          </div>
+          <div class="item_8_card_4" style="background-color: #ff6cbf">
+            <h1>Home & Kitchen</h1>
+            <p>
+              The Homewares & kitchen category is experiencing exponential
+              growth in the eCommerce space. It's a broad category that includes
+              many subcategories, each requiring specific expertise to ensure
+              the best possible outcomes to source the very best in affordable
+              homewares that touch every corner of homes and outdoor living
+              spaces.
+            </p>
+          </div>
+          <div class="item_8_card_5" style="background-color: #000">
+            <h1>Outdoor & Garden</h1>
+            <p>
+              Step into any outdoor and garden centre and you are sure to find a
+              variety of brightly coloured pots, planters, statues, corbels,
+              outdoor settings and shades sourced globally. Choose from a vast
+              array of existing products or design and create your own products
+              by letting us source and manage the manufacture and shipping for
+              you.
+            </p>
+          </div>
+          <div class="item_8_card_5" style="background-color: #440469">
+            <h1>Construction</h1>
+            <p>
+              Get access to higher-quality construction and machinery products
+              at a better price leveraging our trusted industry relationships
+              and production know-how. We work with builders and developers
+              across the globe to find cost savings on materials and products
+              your stakeholders will love.
+            </p>
+          </div>
+          <div class="item_8_card_5" style="background-color: #00c9c9">
+            <h1>Industry</h1>
+            <p>
+              Sourcing Industrial products from factories and manufacturers at
+              lowest price with best quality product materials and componments. 
+            </p>
+          </div>
+          <div class="item_8_card_5" style="background-color: #ff692c">
+            <h1>Automotive   </h1>
+            <p>
+              Sourcing for all kinds of Automotive parts and accessories
+              ensuring quality-standards with safety-standards considering more
+              people who want to import automotive parts and accessories we will
+              help you source for quality automotive parts and accessories
+              directly from suppliers, and finally export with TQA or CSR Audits
+              and Testing & Certification.
+            </p>
+          </div>
+          <div class="item_8_card_5" style="background-color: #ff6cbf">
+            <h1>Apparel</h1>
+            <p>
+              The Apparel Category is vast, requiring targeted verified
+              expertise to make sure you achieve the best outcome possible in
+              functionality, fit and aesthetics. We've got you covered with the
+              expertise you need to tick all the boxes in design, safety
+              standards, production and sustainability.
+            </p>
+          </div>
+          <div class="item_8_card_5" style="background-color: #000">
+            <h1>Personal Care                       </h1>
+            <p>
+              The Personal Care category requires technical expertise and sound
+              knowledge of product development and manufacturing stages to
+              convert your brilliant concept into a product your target market
+              will love. We've got those skills in spade.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="adus__sec">
+          <h1>How We Do It</h1>
+          <div class="adus__wraper">
+            <div class="do">Research Analysis</div>
+            <div class="do">Product Development</div>
+            <div class="do">Client Sampling</div>
+            <div class="do">Quality Management</div>
+            <div class="do">Shipping & Logistics</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== Item9 ===============-->
+
+    <section
+      style="
+        background: url('images/foot.png');
+        background-size: cover;
+        background-position: right;
+      "
+    >
+      <div class="contact">
+        <div class="container">
+          <div class="hal__di__udi">
+            <div class="hal__one">
+              <h1>
+                Time Is <br />
+                Right Now!
+              </h1>
+              <p>
+                Let's Get started <br />
+                Making Things Happen!!.
+              </p>
+            </div>
+            <div class="hal__two">
+              <div class="size">
+                <div class="wraper">
+                  <div class="contact">
+                    <form action="#" method="POST" data-aos="zoom-in">
+                      <div class="input__wraper">
+                        <input
+                          type="text"
+                          name="firstname"
+                          id="firstname"
+                          placeholder="Firstname"
+                          class="form-control"
+                          required=""
+                        />
+                        <input
+                          type="text"
+                          name="laststname"
+                          id="lastname"
+                          placeholder="Lastname"
+                          class="form-control"
+                          required=""
+                        />
+                      </div>
+                      <br />
+                      <div class="input__wraper">
+                        <input
+                          type="text"
+                          name="company"
+                          id="company"
+                          placeholder="Company"
+                          class="form-control"
+                          required=""
+                        />
+                        <input
+                          type="tel"
+                          name="phonenumber"
+                          id="phonenumber"
+                          placeholder="Phone Number"
+                          class="form-control"
+                          required=""
+                        />
+                      </div>
+                      <br />
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email Address "
+                        class="form-control"
+                        required=""
+                      />
+                      <br /><br />
+                      <div class="input__wraper">
+                        <select
+                          type="text"
+                          name="descrive"
+                          id="descrive"
+                          placeholder="lastname*"
+                          class="form-control"
+                          required=""
+                        >
+                          <option>Select Product Range</option>
+                          <option>Consumer Electronics</option>
+                          <option>Furniture & Decor</option>
+                          <option>Interior Design</option>
+                          <option>Outdoor & Garden</option>
+                          <option>Home & Kitchen</option>
+                          <option>Construction</option>
+                          <option>Industry</option>
+                          <option>Automotive</option>
+                          <option>Apparel</option>
+                          <option>Personal Care</option>
+                        </select>
+                        <select
+                          type="text"
+                          name="descrive"
+                          id="descrive"
+                          placeholder="lastname*"
+                          class="form-control"
+                          required=""
+                        >
+                          <option>Total Spend in the last 12 months</option>
+                          <option>< $50k USD</option>
+                          <option>$50K - $250K USD</option>
+                          <option>$250K - $500K USD</option>
+                          <option>$500K - $1M USD</option>
+                          <option>$1M - $5M USD</option>
+                          <option>$5M USD+</option>
+                        </select>
+                      </div>
+                      <br />
+
+                      <textarea
+                        type="text"
+                        name="message"
+                        id="message"
+                        class="text-aria"
+                        required=""
+                        placeholder="Tell Us About Your Project and Product"
+                      ></textarea>
+                      <br /><br />
+                      <select
+                        type="text"
+                        name="sourci"
+                        id="sourci"
+                        class="form-control"
+                        required=""
+                      >
+                        <option>How did you Hear About Us?</option>
+                        <option>Referral</option>
+                        <option>Google</option>
+                        <option>Facebook</option>
+                        <option>LinkedIn</option>
+                        <option>Other</option></select
+                      ><br /><br />
+                      <button class="btnn" type="submit" name="submit">
+                        Send
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <footer>
+        <div class="container">
+          <div class="footer">
+            GlobalSourci <br />
+            © 2023 GlobalSourci - World's leading sourcing solution company. All
+            Rights Reserved. <a href="privacy.html">Privacy Policy</a> <br />
+            HQ: UAE Dubai UnitedArabEmirates
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
