@@ -29,12 +29,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Display success or error message
     if ($success) {
         echo "success";
+        console.log("sucess");
     } else {
         echo "error";
+        console.log("error");
     }
 } else {
     // If the form is not submitted, redirect to the form page
-    header("Location: ../your_contact_form_page.html");
+    header("Location: ../../index.html");
     exit();
 }
 ?>
