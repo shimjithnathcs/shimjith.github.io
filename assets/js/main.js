@@ -284,3 +284,24 @@
     loader();
 
 })(jQuery); // End jQuery
+
+
+// form validation start
+
+function validateForm() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var number = document.getElementById("number").value;
+    var message = document.getElementById("message").value;
+
+    if (name == "" || email == "" || number == "" || message == "") {
+        alert("Please fill out all fields");
+        return false;
+    }
+
+    // Add more specific validations if needed, e.g., for email format, phone number format, etc.
+
+    return true;
+}
+
+// form validation end

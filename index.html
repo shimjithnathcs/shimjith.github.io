@@ -1373,95 +1373,9 @@
                       </div>
                   </form>
               
-                  <script>
-                      function validateForm() {
-                          var name = document.getElementById("name").value;
-                          var email = document.getElementById("email").value;
-                          var number = document.getElementById("number").value;
-                          var message = document.getElementById("message").value;
-              
-                          if (name == "" || email == "" || number == "" || message == "") {
-                              alert("Please fill out all fields");
-                              return false;
-                          }
-              
-                          // Add more specific validations if needed, e.g., for email format, phone number format, etc.
-              
-                          return true;
-                      }
-                  </script>
 
-                    <form
-                    action="assets/mail/contact.php" method="POST" class="contact-form contact-form mt-30"
-                    >
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <div class="form-group">
-                            <input
-                              class="form-control"
-                              id="name"
-                              name="name"
-                              placeholder="Name"
-                              type="text"
-                              required=""
-                            />
-                            <span class="alert-error"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-lg-6">
-                          <div class="form-group">
-                            <input
-                              class="form-control"
-                              id="email"
-                              name="email"
-                              placeholder="Email*"
-                              type="email"
-                              required=""
-                            />
-                            <span class="alert-error"></span>
-                          </div>
-                        </div>
-                        <div class="col-lg-6">
-                          <div class="form-group">
-                            <input
-                              class="form-control"
-                              id="phone"
-                              name="phone"
-                              placeholder="Phone"
-                              type="tel"
-                              required=""
-                            />
-                            <span class="alert-error"></span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <div class="form-group comments">
-                            <textarea
-                              class="form-control"
-                              id="comments"
-                              name="comments"
-                              placeholder="Tell Us About Project *"
-                              required=""
-                            ></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-lg-12">
-                          <button type="submit" name="submit" id="submit">
-                            <i class="fa fa-paper-plane"></i> Get in Touch
-                          </button>
-                        </div>
-                      </div>
-                      <!-- Alert Message -->
-                      <div class="col-lg-12 alert-notification">
-                        <div id="message" class="alert-msg"></div>
-                      </div>
-                    </form>
+
+                  
                   </div>
                 </div>
               </div>
